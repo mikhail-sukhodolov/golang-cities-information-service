@@ -5,7 +5,7 @@
 go build cmd/main.go
 
 ### Пакеты
-github.com/go-chi/chi/v5 - маршрутизатор для http
+github.com/go-chi/chi - маршрутизатор для http
 
 ### Cервер
 server: localhost
