@@ -31,8 +31,6 @@ type Storage interface {
 	GetFromDistrict(district string) ([]string, error)
 	GetFromPopulation(start, end int) ([]string, error)
 	GetFromFoundation(start, end int) ([]string, error)
-	//	findCities(idx_type int, searchText string) []string
-
 }
 
 func (сs *CityService) Create(city *model.CityRequest) (int, error) {

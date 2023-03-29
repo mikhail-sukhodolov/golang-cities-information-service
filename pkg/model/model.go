@@ -25,7 +25,3 @@ type RangeRequest struct {
 	Start int `json:"start"`
 	End   int `json:"end"`
 }
-
-type NewPopulation struct {
-	NewNumber int `json:"newnumber"`
-}

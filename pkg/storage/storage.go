@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"github.com/pkg/errors"
 	"golang-cities-information-service/pkg/model"
-	//"github.com/pkg/errors"
 )
 
 type MemStorage struct {
@@ -49,8 +48,8 @@ func (ms *MemStorage) Delete(id int) error {
 	for index, cityLine := range ms.Records {
 		if cityLine.Id == id {
 			delete(ms.Records, index)
+			fmt.Printf("Город %v удален\n", cityLine.Name)
 			return nil
-			break
 		}
 	}
 	return errors.New("errNotFoundId")
@@ -63,7 +62,6 @@ func (ms *MemStorage) GetFull(id int) (*model.CityStruct, error) {
 		if cityLine.Id == id {
 			fmt.Printf("Название города: %v\nОбласть: %v\nОкруг: %v\nНаселение: %v\nГод основания: %v\n", cityLine.Name, cityLine.Region, cityLine.District, cityLine.Population, cityLine.Foundation)
 			return cityLine, nil
-			break
 		}
 	}
 	return nil, errors.New("errNotFoundId")
@@ -77,7 +75,6 @@ func (ms *MemStorage) SetPopulation(id, population int) error {
 			cityLine.Population = population
 			fmt.Printf("Для города %v установлено новое значение населения - %v\n", cityLine.Name, population)
 			return nil
-			break
 		}
 	}
 	return errors.New("errNotFoundId")
