@@ -1,9 +1,9 @@
 package storage
 
 import (
-	"awesomeProject/pkg/model"
 	"fmt"
 	"github.com/pkg/errors"
+	"golang-cities-information-service/pkg/model"
 	//"github.com/pkg/errors"
 )
 

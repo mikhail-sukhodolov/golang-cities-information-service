@@ -1,7 +1,7 @@
 package service
 
 import (
-	"awesomeProject/pkg/model"
+	"golang-cities-information-service/pkg/model"
 )
 
 type Service interface {

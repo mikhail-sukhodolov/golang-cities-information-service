@@ -1,11 +1,11 @@
 package file
 
 import (
-	"awesomeProject/pkg/model"
-	"awesomeProject/pkg/storage"
 	"bufio"
 	"encoding/csv"
 	"fmt"
+	"golang-cities-information-service/pkg/model"
+	"golang-cities-information-service/pkg/storage"
 	"io"
 	"log"
 	"os"

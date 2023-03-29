@@ -1,8 +1,8 @@
 package handler
 
 import (
-	"awesomeProject/pkg/service"
 	"github.com/go-chi/chi"
+	"golang-cities-information-service/pkg/service"
 )
 
 type Handler struct {

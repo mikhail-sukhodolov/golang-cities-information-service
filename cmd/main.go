@@ -1,11 +1,11 @@
 package main
 
 import (
-	"awesomeProject/pkg/file"
-	"awesomeProject/pkg/handler"
-	"awesomeProject/pkg/service"
-	"awesomeProject/pkg/storage"
 	"fmt"
+	"golang-cities-information-service/pkg/file"
+	"golang-cities-information-service/pkg/handler"
+	"golang-cities-information-service/pkg/service"
+	"golang-cities-information-service/pkg/storage"
 	"log"
 	"net/http"
 	"os"

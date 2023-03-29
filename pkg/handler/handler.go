@@ -1,11 +1,11 @@
 package handler
 
 import (
-	"awesomeProject/pkg/model"
 	"encoding/json"
 	"fmt"
 	"github.com/go-chi/chi"
 	"github.com/rs/zerolog/log"
+	"golang-cities-information-service/pkg/model"
 	"io/ioutil"
 	"net/http"
 	"strconv"
