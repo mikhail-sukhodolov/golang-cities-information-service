@@ -13,7 +13,7 @@ server: localhost
 port: 8080
 
 ### Путь к сsv файлу с информацией о городах
-path: "golang-cities-information-service/cities.csv"
+path: "golang-cities-information-service/сmd/cities.csv"
 
 
 ### Примеры запросов к серверу
